@@ -1,0 +1,17 @@
+.button {
+  width: 100%;
+  margin: 40px 0;
+  border-radius: 4px;
+  padding: 14px 32px;
+  background: var(--main);
+  color: var(--white);
+  font-size: 18px;
+  border: 0;
+  cursor: pointer;
+}
+
+.button:hover, .button:focus {
+  background: var(--main-hover);
+  color: var(--background1);
+  font-weight: bold;
+}

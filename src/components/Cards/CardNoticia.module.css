@@ -1,0 +1,29 @@
+.cardNoticia {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--background3);
+  border-radius: 4px;
+}
+
+.text {
+  padding: 18px 24px 32px 24px;
+  border-top: none;
+}
+
+.text p:nth-child(3) {
+  color: var(--gray);
+  margin-bottom: 24px;
+}
+
+.text h3 {
+  margin: 24px 0;
+  color: var(--white);
+}
+
+.text a {
+  background-image: var(--main);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

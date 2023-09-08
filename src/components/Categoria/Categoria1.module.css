@@ -1,0 +1,8 @@
+.categoria1 {
+  width: fit-content;
+  background: var(--main);
+  padding: 4px 16px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: var(--white);
+}

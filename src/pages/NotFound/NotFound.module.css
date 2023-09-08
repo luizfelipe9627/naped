@@ -1,0 +1,39 @@
+.notFound {
+  width: 90vw;
+  height: calc(100vh - 5.9375rem);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text h1 {
+  max-width: 15ch;
+}
+
+.text p {
+  margin: 24px 0 48px 0;
+  color: var(--gray);
+  max-width: 40ch;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image img {
+  margin-bottom: 40px;
+}
+
+.image h3 {
+  max-width: 25ch;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 1140px) {
+  .image {
+    display: none;
+  }
+}

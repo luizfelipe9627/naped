@@ -1,0 +1,40 @@
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: var(--background1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  /* Faz o calculo pegando a altura total da tela mais a altura do footer para a altura. */
+  min-height: 100vh;
+}
+
+.AppBody {
+  /* O flex 1 faz com que o footer fique sempre no final da página. */
+  flex: 1;
+}
+
+@media (min-width: 320px) and (max-width: 1440px) {
+  .AppBody {
+    max-width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1441px) {
+  .AppBody {
+    max-width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+}

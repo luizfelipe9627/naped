@@ -1,0 +1,20 @@
+.apresentacao {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 140px;
+}
+
+.apresentacao h1 {
+  text-align: center;
+  max-width: 10ch;
+  color: var(--white);
+  margin-bottom: 32px;
+}
+
+.apresentacao p {
+  font-family: var(--second-font);
+  max-width: 40ch;
+  color: var(--gray);
+  text-align: center;
+}

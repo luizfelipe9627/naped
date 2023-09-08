@@ -1,0 +1,145 @@
+.header {
+  padding: 24px 0;
+  border-bottom: 1px solid #151B26;
+}
+
+.navMobile {
+  display: none;
+  border-radius: 0.2rem;
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  transition: .1s;
+}
+
+.navMobile::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 0 10px #fff,0 -10px #fff;
+  transition: .2s;
+}
+
+.container {
+  max-width: 65vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav li:not(:last-child) {
+  margin-right: 57px;
+}
+
+.nav li:nth-child(5) {
+  margin-right: 80px;
+}
+
+.nav a {
+  font-size: 18px;
+  color: var(--white);
+}
+
+.nav a:global(.active),
+.nav a:not(.nav li:last-child a):hover {
+  background-image: var(--main);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.nav a:not(.nav li:last-child a):hover {
+  font-weight: 400;
+}
+
+.nav li:last-child a:global(.active) {
+  background: var(--main);
+  -webkit-text-fill-color: var(--background1);
+  font-weight: 600;
+}
+
+@media (min-width: 320px) and (max-width: 1440px) {
+  .container {
+    max-width: 90vw;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1140px) {
+  .navMobile {
+    display: flex;
+    z-index: 999;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: var(--background2);
+    border-radius: 0.2rem;
+    padding: 1rem;
+    z-index: 1;
+  }
+  
+  .nav.active ul {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .nav.active ul li {
+    margin: 30px 0;
+  }
+
+  .nav.active ul li a {
+    font-size: 24px;
+  }
+
+  .iconLines {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    margin: 6px 0;
+    transition: 0.2s;
+  }
+
+  .iconX {
+    display: none;
+    position: relative;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    margin: 6px 0;
+    transition: 0.2s;
+  }
+
+  .navMobile.active .iconX {
+    display: block;
+  }
+
+  .navMobile.active .iconLines {
+    display: none;
+  }
+}

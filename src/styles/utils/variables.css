@@ -1,0 +1,11 @@
+:root {
+  --main: linear-gradient(224deg, #00A3FF 4.8%, #0054C6 95.02%);
+  --main-hover: linear-gradient(224deg, #0054C6 4.8%, #00A3FF 95.02%);
+  --white: #FEFBFB;
+  --gray: #A3A3A3;
+  --background1: #06090F;
+  --background2: #090E18;
+  --background3: #151B26;
+  --first-font: 'Rubik', sans-serif;
+  --second-font: 'Inter', sans-serif;
+}

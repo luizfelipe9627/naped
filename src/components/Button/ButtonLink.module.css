@@ -1,0 +1,21 @@
+.button a {
+  border-radius: 4px;
+  padding: 14px 32px;
+  background: var(--main);
+  color: var(--white);
+  font-size: 18px;
+  border: 0;
+  cursor: pointer;
+}
+
+.button {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.button a:hover,
+.button a:focus {
+  background: var(--main-hover);
+  color: var(--background1);
+}

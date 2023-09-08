@@ -1,0 +1,30 @@
+.input {
+  width: 100%;
+  height: 55px;
+  margin-bottom: 24px;
+  background: var(--background2);
+  border: 1px solid var(--background3);
+  border-radius: 4px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: var(--white);
+  padding: 0 48px;
+}
+
+.input {
+  padding-left: 40px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 10px center;
+}
+
+.input:focus,
+.input:hover {
+  outline: none;
+  border-color: var(--background3);
+  box-shadow: 0 0 0 2px var(--white);
+}
+
+.input::placeholder {
+  color: var(--white);
+}

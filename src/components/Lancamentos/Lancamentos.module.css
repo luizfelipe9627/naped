@@ -1,0 +1,20 @@
+.lancamentos {
+  margin-bottom: 140px;
+}
+
+.lancamentos h3:first-child {
+  color: var(--white);
+  margin-bottom: 48px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}

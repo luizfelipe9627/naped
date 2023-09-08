@@ -1,0 +1,81 @@
+.card {
+  cursor: pointer;
+}
+
+.card:nth-child(3n-2) {
+  grid-row: span 2;
+}
+
+.image {
+  position: relative;
+  height: 100%;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(6, 9, 15, 0.30) 53.65%, #06090F 100%);
+  color: var(--white);
+  padding: 32px;
+}
+
+.text h2 {
+  max-width: 20ch;
+  margin: 12px 0;
+}
+
+.text h3 {
+  margin-top: 18px;
+}
+
+.text p {
+  color: var(--gray);
+}
+
+@media (max-width: 1140px) {
+  .image img:nth-child(1) {
+    height: 365px;
+  }
+
+  .text h2,
+  .text p {
+    max-width: initial;
+  }
+}
+
+@media (min-width: 1140px) and (max-width: 1480px) {
+  .text h2 {
+    font-size: 38px;
+  }
+}
+
+@media(max-width: 600px) {
+  .texto h2 {
+    font-size: 26px;
+  }
+
+  .texto p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+  .texto h2 {
+    font-size: 24px;
+  }
+
+  .texto p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,15 @@
+.logo a {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.titulo {
+  font-size: 32px;
+  margin-left: 16px;
+  font-weight: 400;
+  background-image: var(--main);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
