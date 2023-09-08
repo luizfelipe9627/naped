@@ -1,8 +1,11 @@
+import img1 from "../assets/img/lancamento1.png";
+import img2 from "../assets/img/lancamento2.png";
+
 export const lancamentos = [
   {
     id: 7,
     url: "/series/2",
-    img: "../../src/assets/img/lancamento1.png",
+    img: img1,
     alt: "Imagem do Game of Thrones",
     category: "Séries",
     title: "Game of Thrones: A Luta pelo Poder nos Sete Reinos",
@@ -16,7 +19,7 @@ export const lancamentos = [
   {
     id: 8,
     url: "/filmes/2",
-    img: "../../src/assets/img/lancamento2.png",
+    img: img2,
     alt: "Imagem do Inception",
     category: "Filmes",
     title: "Inception: A Jornada pelos Sonhos e Realidade",

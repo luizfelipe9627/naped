@@ -1,8 +1,11 @@
+import img1 from "../assets/img/lancamento2.png";
+import img2 from "../assets/img/noticia1.png";
+
 export const filmes = [
   {
     id: 1,
     url: "/filmes/2",
-    img: "../../src/assets/img/lancamento2.png",
+    img: img1,
     alt: "Imagem do Inception",
     category: "Filmes",
     title: "Inception: A Jornada pelos Sonhos e Realidade",
@@ -15,7 +18,7 @@ export const filmes = [
   },
   {
     id: 2,
-    img: "../../src/assets/img/noticia1.png",
+    img: img2,
     alt: "Imagem do Duna",
     url: "/filmes/1",
     category: "Filmes",

@@ -1,7 +1,10 @@
+import img1 from "../assets/img/noticia2.png";
+import img2 from "../assets/img/destaque3.png";
+
 export const animes = [
   {
     id: 1,
-    img: "../../src/assets/img/noticia2.png",
+    img: img1,
     alt: "Imagem do Demon Slayer",
     url: "/animes/2",
     category: "Animes",
@@ -15,7 +18,7 @@ export const animes = [
   },
   {
     id: 2,
-    img: "../../src/assets/img/destaque3.png",
+    img: img2,
     alt: "Imagem do Attack on Titan",
     url: "/animes/1",
     category: "Animes",

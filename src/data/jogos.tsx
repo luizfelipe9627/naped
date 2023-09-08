@@ -1,7 +1,10 @@
+import img1 from "../assets/img/noticia3.png";
+import img2 from "../assets/img/destaque2.png";
+
 export const jogos = [
   {
     id: 1,
-    img: "../../src/assets/img/noticia3.png",
+    img: img1,
     alt: "Imagem do Elden Ring",
     url: "/jogos/2",
     category: "Jogos",
@@ -15,7 +18,7 @@ export const jogos = [
   },
   {
     id: 2,
-    img: "../../src/assets/img/destaque2.png",
+    img: img2,
     alt: "Imagem do The Last of Us Part II",
     url: "/jogos/1",
     category: "Jogos",

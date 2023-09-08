@@ -1,7 +1,11 @@
+import img1 from "../assets/img/noticia1.png";
+import img2 from "../assets/img/noticia2.png";
+import img3 from "../assets/img/noticia3.png";
+
 export const noticias = [
   {
     id: 4,
-    img: "../../src/assets/img/noticia1.png",
+    img: img1,
     alt: "Imagem do Duna",
     url: "/filmes/1",
     category: "Filmes",
@@ -15,7 +19,7 @@ export const noticias = [
   },
   {
     id: 5,
-    img: "../../src/assets/img/noticia2.png",
+    img: img2,
     alt: "Imagem do Demon Slayer",
     url: "/animes/2",
     category: "Animes",
@@ -29,7 +33,7 @@ export const noticias = [
   },
   {
     id: 6,
-    img: "../../src/assets/img/noticia3.png",
+    img: img3,
     alt: "Imagem do Elden Ring",
     url: "/jogos/2",
     category: "Jogos",

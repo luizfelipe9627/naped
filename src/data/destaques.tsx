@@ -1,7 +1,11 @@
+import img1 from "../assets/img/destaque1.png";
+import img2 from "../assets/img/destaque2.png";
+import img3 from "../assets/img/destaque3.png";
+
 export const destaques = [
   {
     id: 1,
-    img: "../../src/assets/img/destaque1.png",
+    img: img1,
     alt: "Imagem do Stranger Things",
     url: "/series/1",
     category: "Séries",
@@ -14,7 +18,7 @@ export const destaques = [
   },
   {
     id: 2,
-    img: "../../src/assets/img/destaque2.png",
+    img: img2,
     alt: "Imagem do The Last of Us Part II",
     url: "/jogos/1",
     category: "Jogos",
@@ -27,7 +31,7 @@ export const destaques = [
   },
   {
     id: 3,
-    img: "../../src/assets/img/destaque3.png",
+    img: img3,
     alt: "Imagem do Attack on Titan",
     url: "/animes/1",
     category: "Animes",
