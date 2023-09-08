@@ -69,11 +69,12 @@
   max-height: 220px;
 }
 
+
 img {
   max-width: initial;
 }
 
-@media (min-width: 1360px) {
+@media (max-width: 1360px) {
   .resultadoActive {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -91,7 +92,7 @@ img {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 470px) {
   .image img {
     height: 100vw;
   }

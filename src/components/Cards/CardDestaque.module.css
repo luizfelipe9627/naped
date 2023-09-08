@@ -45,7 +45,7 @@
 
 @media (max-width: 1140px) {
   .image img:nth-child(1) {
-    height: 365px;
+    height: 400px;
   }
 
   .text h2,
