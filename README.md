@@ -1,8 +1,49 @@
-# React + Vite
+# Naped
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Badge](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
 
-Currently, two official plugins are available:
+<img src="https://github.com/luizfelipe9627/naped/blob/main/src/assets/img/apresentacao.gif" alt="Apresentação do Naped">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📄 Descrição
+
+O naped é um web site que mostra aos seus leitores informações sobre séries, filmes, animes e jogos.
+
+## 📑 Observação
+
+Criei esse projeto do zero para práticar o conhecimento em React.
+
+### <a href="https://luizfelipe9627-naped.netlify.app">Acesse o site</a>
+
+## 🎨 Layout
+
+### Créditos do layout para o <a href="https://iuricode.com">Iuri Silva</a>.
+
+## 💻 Tecnologias utilizadas
+
+- `HTML5`
+- `CSS3`  
+- `JAVASCRIPT ES6`
+- `REACT.JS`
+- `ESLINT`
+- `NODE.JS`
+
+## 🧑‍💻 Criador
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/luizfelipe9627">
+        <img src="https://github.com/luizfelipe9627.png" width="100px;" alt="Foto de Luiz Felipe Silva no GitHub"/><br>
+        <sub>
+          <b>Luiz Felipe Silva</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## 📷 Me siga nas redes sociais<br>
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/luizfelipe9627/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</p>
