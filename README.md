@@ -6,7 +6,7 @@
 
 ## 📄 Descrição
 
-O naped é um web site que mostra aos seus leitores informações sobre séries, filmes, animes e jogos.
+O naped é um website que mostra aos seus leitores informações sobre séries, filmes, animes e jogos.
 
 ## 📑 Observação
 
