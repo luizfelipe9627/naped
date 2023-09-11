@@ -4,7 +4,7 @@
 
 .container {
   position: relative;
-  width: 90vw;
+  width: 65vw;
 }
 
 .text {
@@ -66,7 +66,9 @@
 }
 
 .resultadoActive img {
+  width: 100%;
   max-height: 220px;
+  object-fit: cover;
 }
 
 
@@ -74,7 +76,11 @@ img {
   max-width: initial;
 }
 
-@media (max-width: 1360px) {
+@media (max-width: 1440px) {
+  .container {
+    width: 90vw;
+  }
+
   .resultadoActive {
     grid-template-columns: repeat(3, 1fr);
   }
