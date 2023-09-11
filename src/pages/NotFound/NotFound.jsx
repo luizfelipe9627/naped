@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Button,
-  Heading1,
-  BodyLarge,
-  Head,
-  Heading3,
-} from "../../components";
+import { ButtonLink, Heading1, BodyLarge, Head, Heading3 } from "../../components";
 import styles from "./NotFound.module.css";
 import img from "../../assets/svg/404.svg";
 
@@ -20,7 +14,7 @@ const NotFound = () => {
           A página que você está procurando pode ter sido removida ou está
           temporariamente indisponível.
         </BodyLarge>
-        <Button route="/">Voltar para o início</Button>
+        <ButtonLink route="/">Voltar para o início</ButtonLink>
       </div>
 
       <div className={styles.image}>

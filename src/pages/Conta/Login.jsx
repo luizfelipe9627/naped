@@ -8,6 +8,7 @@ import {
   LerMais,
   Heading2,
 } from "../../components";
+import img from "../../assets/svg/user.svg";
 
 const Login = () => {
   return (
@@ -26,7 +27,7 @@ const Login = () => {
         <Input
           type="text"
           name="text"
-          backgroundImage="url(../../src/assets/svg/user.svg)"
+          backgroundImage={`url(${img})`}
           placeholder="Digite seu usuário"
         />
         <Input
