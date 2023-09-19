@@ -1,5 +1,5 @@
-import img1 from "../assets/img/lancamento1.png";
-import img2 from "../assets/img/lancamento2.png";
+import img1 from "../assets/img/serie2.png";
+import img2 from "../assets/img/filme1.png";
 
 export const lancamentos = [
   {
