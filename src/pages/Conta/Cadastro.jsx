@@ -8,6 +8,9 @@ import {
   LerMais,
   Heading2,
 } from "../../components";
+import img1 from "../../assets/svg/user.svg";
+import img2 from "../../assets/svg/at-sign.svg";
+import img3 from "../../assets/svg/lock.svg";
 
 const Login = () => {
   return (
@@ -26,25 +29,25 @@ const Login = () => {
         <Input
           type="text"
           name="text"
-          backgroundImage="url(../../src/assets/svg/user.svg)"
+          backgroundImage={`url(${img1})`}
           placeholder="Digite seu usuário"
         />
         <Input
           type="email"
           name="email"
-          backgroundImage="url(../../src/assets/svg/at-sign.svg)"
+          backgroundImage={`url(${img2})`}
           placeholder="Digite seu email"
         />
         <Input
           type="password"
           name="password"
-          backgroundImage="url(../../src/assets/svg/lock.svg)"
+          backgroundImage={`url(${img3})`}
           placeholder="Digite sua senha"
         />
         <Input
           type="password"
           name="password"
-          backgroundImage="url(../../src/assets/svg/lock.svg)"
+          backgroundImage={`url(${img3})`}
           placeholder="Digite sua senha novamente"
         />
 
