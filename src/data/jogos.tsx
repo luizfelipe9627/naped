@@ -6,7 +6,7 @@ export const jogos = [
     id: 1,
     img: img1,
     alt: "Imagem do Elden Ring",
-    url: "/jogos/2",
+    url: "/jogos/1",
     category: "Jogos",
     title: "Elden Ring: A Saga Épica de Fantasia",
     subtitle:
@@ -20,7 +20,7 @@ export const jogos = [
     id: 2,
     img: img2,
     alt: "Imagem do The Last of Us Part II",
-    url: "/jogos/1",
+    url: "/jogos/2",
     category: "Jogos",
     title: "The Last of Us Part II: Uma Obra-Prima da Narrativa Interativa",
     subtitle: "Emoções e Sobrevivência no Mundo Pós-Apocalíptico",

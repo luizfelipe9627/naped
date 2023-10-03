@@ -1,24 +1,24 @@
-.cardLancamento {
+.smallCard {
   display: flex;
   flex-direction: column;
 }
 
-.cardLancamento h3 {
+.smallCard h3 {
   margin: 24px 0;
   color: var(--white);
 }
 
-.cardLancamento p:nth-child(3) {
+.smallCard p:nth-child(3) {
   margin-bottom: 32px;
   color: var(--gray);
   font-family: var(--second-font);
 }
 
-.cardLancamento p {
+.smallCard p {
   margin-top: auto;
 }
 
-.cardLancamento a {
+.smallCard a {
   background-image: var(--main);
   background-clip: text;
   -webkit-background-clip: text;

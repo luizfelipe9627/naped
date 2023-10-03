@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Pesquisa.module.css";
 import search from "../../assets/svg/search.svg";
-import { Heading2, BodyMedium, BodyLarge, Input, CardNoticia } from "../index";
+import { Heading2, BodyMedium, BodyLarge, Input, MediumCard } from "../index";
 
 const Pesquisa = ({ img, alt, title, subtitle, type }) => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -61,7 +61,7 @@ const Pesquisa = ({ img, alt, title, subtitle, type }) => {
           (console.log(searchResults),
           searchResults.map(
             ({ id, img, url, category, title, subtitle, alt }) => (
-              <CardNoticia
+              <MediumCard
                 key={id}
                 id={id}
                 img={img}

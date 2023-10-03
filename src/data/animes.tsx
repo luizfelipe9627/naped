@@ -6,7 +6,7 @@ export const animes = [
     id: 1,
     img: img1,
     alt: "Imagem do Demon Slayer",
-    url: "/animes/2",
+    url: "/animes/1",
     category: "Animes",
     title: "Demon Slayer: Kimetsu no Yaiba",
     subtitle:
@@ -20,7 +20,7 @@ export const animes = [
     id: 2,
     img: img2,
     alt: "Imagem do Attack on Titan",
-    url: "/animes/1",
+    url: "/animes/2",
     category: "Animes",
     title: "Attack on Titan: A Épica Batalha Contra os Titãs",
     subtitle: "Uma Luta Desesperada Pela Sobrevivência",

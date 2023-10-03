@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Heading2, BodyLarge, Categoria1 } from "../index";
-import styles from "./CardDestaque.module.css";
+import styles from "./LargeCard.module.css";
 
-const CardDestaque = ({ img, url, category, title, subtitle, alt }) => {
+const LargeCard = ({ img, url, category, title, subtitle, alt }) => {
   return (
-    <Link to={url} className={styles.card}>
+    <Link to={url} className={styles.largeCard}>
       <div className={styles.image}>
         <img src={img} alt={alt} />
         <div className={styles.text}>
@@ -20,4 +20,4 @@ const CardDestaque = ({ img, url, category, title, subtitle, alt }) => {
   );
 };
 
-export default CardDestaque;
+export default LargeCard;

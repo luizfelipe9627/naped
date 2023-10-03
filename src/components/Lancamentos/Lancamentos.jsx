@@ -1,8 +1,7 @@
 import React from "react";
-import { Heading3, CardLancamento } from "../index";
+import { Heading3, SmallCard } from "../index";
 import styles from "./Lancamentos.module.css";
 import { lancamentos } from "../../data/lancamentos";
-
 
 const Lancamentos = ({ title }) => {
   return (
@@ -12,7 +11,7 @@ const Lancamentos = ({ title }) => {
       <div className={styles.container}>
         {lancamentos.map(({ id, url, category, title, subtitle }) => {
           return (
-            <CardLancamento
+            <SmallCard
               key={id}
               id={id}
               url={url}

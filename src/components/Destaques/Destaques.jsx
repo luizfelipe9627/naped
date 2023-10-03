@@ -1,5 +1,5 @@
 import React from "react";
-import { CardDestaque } from "../index";
+import { LargeCard } from "../index";
 import styles from "./Destaques.module.css";
 import { destaques } from "../../data/destaques";
 
@@ -8,7 +8,7 @@ const Destaques = () => {
     <section className={styles.destaques}>
       {destaques.map(({ id, img, url, category, title, subtitle, alt }) => {
         return (
-          <CardDestaque
+          <LargeCard
             key={id}
             id={id}
             url={url}

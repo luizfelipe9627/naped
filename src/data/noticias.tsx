@@ -21,7 +21,7 @@ export const noticias = [
     id: 5,
     img: img2,
     alt: "Imagem do Demon Slayer",
-    url: "/animes/2",
+    url: "/animes/1",
     category: "Animes",
     title: "Demon Slayer: Kimetsu no Yaiba",
     subtitle:
@@ -35,7 +35,7 @@ export const noticias = [
     id: 6,
     img: img3,
     alt: "Imagem do Elden Ring",
-    url: "/jogos/2",
+    url: "/jogos/1",
     category: "Jogos",
     title: "Elden Ring: A Saga Épica de Fantasia",
     subtitle:

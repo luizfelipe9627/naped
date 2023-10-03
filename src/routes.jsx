@@ -1,16 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import {
-  Destaque1,
-  Destaque2,
-  Destaque3,
-  Noticia1,
-  Noticia2,
-  Noticia3,
-  Lancamento1,
-  Lancamento2,
-} from "./components";
+import { Filme, Serie, Jogo, Anime } from "./components";
 
 import {
   Inicio,
@@ -22,6 +13,11 @@ import {
   Login,
   Cadastro,
 } from "./pages";
+
+import { filmes } from "./data/filmes";
+import { series } from "./data/series";
+import { jogos } from "./data/jogos";
+import { animes } from "./data/animes";
 
 function AppRoutes() {
   return (
@@ -36,16 +32,10 @@ function AppRoutes() {
       <Route path="conta/login" element={<Login />} />
       <Route path="conta/cadastrar" element={<Cadastro />} />
 
-      <Route path="/series/1" element={<Destaque1 />} />
-      <Route path="/jogos/1" element={<Destaque2 />} />
-      <Route path="/animes/1" element={<Destaque3 />} />
-
-      <Route path="/filmes/1" element={<Noticia1 />} />
-      <Route path="/animes/2" element={<Noticia2 />} />
-      <Route path="/jogos/2" element={<Noticia3 />} />
-
-      <Route path="/series/2" element={<Lancamento1 />} />
-      <Route path="/filmes/2" element={<Lancamento2 />} />
+      <Route path="/filmes/:id" element={<Filme filmes={filmes} />} />
+      <Route path="/series/:id" element={<Serie series={series} />} />
+      <Route path="/jogos/:id" element={<Jogo jogos={jogos} />} />
+      <Route path="/animes/:id" element={<Anime animes={animes} />} />
     </Routes>
   );
 }

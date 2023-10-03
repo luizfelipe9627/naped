@@ -1,10 +1,10 @@
 import React from "react";
 import { Heading3, BodyMedium, Categoria2, LerMais } from "../index";
-import styles from "./CardNoticia.module.css";
+import styles from "./MediumCard.module.css";
 
-const CardNoticia = ({ img, url, category, title, subtitle, alt }) => {
+const MediumCard = ({ img, url, category, title, subtitle, alt }) => {
   return (
-    <div className={styles.cardNoticia}>
+    <div className={styles.mediumCard}>
       <div className={styles.image}>
         <img src={img} alt={alt} />
       </div>
@@ -14,10 +14,12 @@ const CardNoticia = ({ img, url, category, title, subtitle, alt }) => {
         <Heading3>{title}</Heading3>
         <BodyMedium>{subtitle}</BodyMedium>
 
-        <LerMais link={url}>Ler mais</LerMais>
+        <LerMais link={url} style={{ flex: 1 }}>
+          Ler mais
+        </LerMais>
       </div>
     </div>
   );
 };
 
-export default CardNoticia;
+export default MediumCard;

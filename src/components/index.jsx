@@ -1,13 +1,18 @@
+export { default as SmallCard } from "./Cards/SmallCard";
+export { default as MediumCard } from "./Cards/MediumCard";
+export { default as LargeCard } from "./Cards/LargeCard";
+
 export { default as Apresentacao } from "./Apresentacao/Apresentacao";
-export { default as CardDestaque } from "./Cards/CardDestaque";
-export { default as CardLancamento } from "./Cards/CardLancamento";
-export { default as CardNoticia } from "./Cards/CardNoticia";
+export { default as Destaques } from "./Destaques/Destaques";
+
 export { default as Categoria1 } from "./Categoria/Categoria1";
 export { default as Categoria2 } from "./Categoria/Categoria2";
-export { default as Destaques } from "./Destaques/Destaques";
-export { default as Destaque1 } from "./Destaques/Destaque1";
-export { default as Destaque2 } from "./Destaques/Destaque2";
-export { default as Destaque3 } from "./Destaques/Destaque3";
+
+export { default as Filme } from "./Filme/Filme";
+export { default as Serie } from "./Serie/Serie";
+export { default as Jogo } from "./Jogo/Jogo";
+export { default as Anime } from "./Anime/Anime";
+
 export { default as Footer } from "./Footer/Footer";
 export { default as Header } from "./Header/Header";
 export { default as Infos } from "./Infos/Infos";
@@ -17,12 +22,8 @@ export { default as Input } from "./Input/Input";
 export { default as Logo } from "./Logo/Logo";
 export { default as Head } from "./Helper/Head";
 export { default as Lancamentos } from "./Lancamentos/Lancamentos";
-export { default as Lancamento1 } from "./Lancamentos/Lancamento1";
-export { default as Lancamento2 } from "./Lancamentos/Lancamento2";
 export { default as Noticias } from "./Noticias/Noticias";
-export { default as Noticia1 } from "./Noticias/Noticia1";
-export { default as Noticia2 } from "./Noticias/Noticia2";
-export { default as Noticia3 } from "./Noticias/Noticia3";
+
 export { default as BodyLarge } from "./Tipografia/BodyLarge";
 export { default as BodyMedium } from "./Tipografia/BodyMedium";
 export { default as BodyNormal } from "./Tipografia/BodyNormal";
