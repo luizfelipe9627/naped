@@ -1,5 +1,5 @@
 import img1 from "../assets/img/serie1.png";
-import img2 from "../assets/img/jogo1.png";
+import img2 from "../assets/img/jogo2.png";
 import img3 from "../assets/img/anime1.png";
 
 export const destaques = [

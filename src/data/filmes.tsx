@@ -14,7 +14,7 @@ export const filmes = [
     category: "Filmes",
     title: "Duna: A Épica Adaptação de Frank Herbert",
     subtitle:
-      "Uma adaptação altamente aguardada do clássico de ficção científica de Frank Herbert.",
+      "Uma adaptação altamente aguardada do clássico de ficção científica.",
     text1:
       "Duna, dirigido por Denis Villeneuve, é uma adaptação altamente aguardada do clássico da ficção científica de Frank Herbert. A história se passa no deserto árido de Arrakis, um planeta rico em uma substância valiosa conhecida como 'melange' ou 'especiaria'.",
     text2:

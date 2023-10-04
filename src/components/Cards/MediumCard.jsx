@@ -14,7 +14,7 @@ const MediumCard = ({ img, url, category, title, subtitle, alt }) => {
         <Heading3>{title}</Heading3>
         <BodyMedium>{subtitle}</BodyMedium>
 
-        <LerMais link={url} style={{ flex: 1 }}>
+        <LerMais link={url}>
           Ler mais
         </LerMais>
       </div>

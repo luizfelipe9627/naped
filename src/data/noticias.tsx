@@ -1,6 +1,6 @@
 import img1 from "../assets/img/filme2.png";
 import img2 from "../assets/img/anime2.png";
-import img3 from "../assets/img/jogo2.png";
+import img3 from "../assets/img/jogo1.png";
 
 export const noticias = [
   {
