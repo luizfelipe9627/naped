@@ -61,21 +61,21 @@
 }
 
 @media(max-width: 600px) {
-  .texto h2 {
+  .text h2 {
     font-size: 26px;
   }
 
-  .texto p {
+  .text p {
     font-size: 18px;
   }
 }
 
 @media (max-width: 350px) {
-  .texto h2 {
+  .text h2 {
     font-size: 24px;
   }
 
-  .texto p {
+  .text p {
     font-size: 16px;
   }
 }
