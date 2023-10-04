@@ -1,6 +1,6 @@
 import React from "react";
 import { Head, Pesquisa } from "../index";
-import img from "../../assets/img/series.png";
+import img from "../../assets/img/series.webp";
 import { series } from "../../data/series";
 
 const Serie1 = () => {

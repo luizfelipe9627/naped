@@ -1,6 +1,6 @@
 import React from "react";
 import { Head, Pesquisa } from "../index";
-import img from "../../assets/img/filmes.png";
+import img from "../../assets/img/filmes.webp";
 import { filmes } from "../../data/filmes";
 
 const Filmes = () => {

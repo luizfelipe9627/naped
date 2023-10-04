@@ -1,9 +1,9 @@
-import img1 from "../assets/img/filme1.png";
-import img2 from "../assets/img/filme2.png";
-import img3 from "../assets/img/filme3.png";
-import img4 from "../assets/img/filme4.png";
-import img5 from "../assets/img/filme5.png";
-import img6 from "../assets/img/filme6.png";
+import img1 from "../assets/img/filme1.webp";
+import img2 from "../assets/img/filme2.webp";
+import img3 from "../assets/img/filme3.webp";
+import img4 from "../assets/img/filme4.webp";
+import img5 from "../assets/img/filme5.webp";
+import img6 from "../assets/img/filme6.webp";
 
 export const filmes = [
   {

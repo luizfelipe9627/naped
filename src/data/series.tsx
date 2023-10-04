@@ -1,9 +1,9 @@
-import img1 from "../assets/img/serie1.png";
-import img2 from "../assets/img/serie2.png";
-import img3 from "../assets/img/serie3.png";
-import img4 from "../assets/img/serie4.png";
-import img5 from "../assets/img/serie5.png";
-import img6 from "../assets/img/serie6.png";
+import img1 from "../assets/img/serie1.webp";
+import img2 from "../assets/img/serie2.webp";
+import img3 from "../assets/img/serie3.webp";
+import img4 from "../assets/img/serie4.webp";
+import img5 from "../assets/img/serie5.webp";
+import img6 from "../assets/img/serie6.webp";
 
 export const series = [
   {

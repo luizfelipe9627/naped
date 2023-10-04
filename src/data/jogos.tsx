@@ -1,9 +1,9 @@
-import img1 from "../assets/img/jogo1.png";
-import img2 from "../assets/img/jogo2.png";
-import img3 from "../assets/img/jogo3.png";
-import img4 from "../assets/img/jogo4.png";
-import img5 from "../assets/img/jogo5.png";
-import img6 from "../assets/img/jogo6.png";
+import img1 from "../assets/img/jogo1.webp";
+import img2 from "../assets/img/jogo2.webp";
+import img3 from "../assets/img/jogo3.webp";
+import img4 from "../assets/img/jogo4.webp";
+import img5 from "../assets/img/jogo5.webp";
+import img6 from "../assets/img/jogo6.webp";
 
 export const jogos = [
   {

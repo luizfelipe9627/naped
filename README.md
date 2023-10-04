@@ -21,7 +21,7 @@ Criei esse projeto do zero para práticar o conhecimento em React.
 ## 💻 Tecnologias utilizadas
 
 - `HTML5`
-- `CSS3`  
+- `CSS3`
 - `JAVASCRIPT ES6`
 - `REACT.JS`
 
@@ -31,7 +31,7 @@ Criei esse projeto do zero para práticar o conhecimento em React.
   <tr>
     <td align="center">
       <a href="https://github.com/luizfelipe9627">
-        <img src="https://github.com/luizfelipe9627.png" width="100px;" alt="Foto de Luiz Felipe Silva no GitHub"/><br>
+        <img src="https://github.com/luizfelipe9627.webp" width="100px;" alt="Foto de Luiz Felipe Silva no GitHub"/><br>
         <sub>
           <b>Luiz Felipe Silva</b>
         </sub>

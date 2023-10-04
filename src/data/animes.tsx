@@ -1,9 +1,9 @@
-import img1 from "../assets/img/anime2.png";
-import img2 from "../assets/img/anime1.png";
-import img3 from "../assets/img/anime3.png";
-import img4 from "../assets/img/anime4.png";
-import img5 from "../assets/img/anime5.png";
-import img6 from "../assets/img/anime6.png";
+import img1 from "../assets/img/anime2.webp";
+import img2 from "../assets/img/anime1.webp";
+import img3 from "../assets/img/anime3.webp";
+import img4 from "../assets/img/anime4.webp";
+import img5 from "../assets/img/anime5.webp";
+import img6 from "../assets/img/anime6.webp";
 
 export const animes = [
   {

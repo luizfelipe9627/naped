@@ -1,6 +1,6 @@
-import img1 from "../assets/img/serie1.png";
-import img2 from "../assets/img/jogo2.png";
-import img3 from "../assets/img/anime1.png";
+import img1 from "../assets/img/serie1.webp";
+import img2 from "../assets/img/jogo2.webp";
+import img3 from "../assets/img/anime1.webp";
 
 export const destaques = [
   {
