@@ -24,8 +24,6 @@ Criei esse projeto do zero para práticar o conhecimento em React.
 - `CSS3`  
 - `JAVASCRIPT ES6`
 - `REACT.JS`
-- `ESLINT`
-- `NODE.JS`
 
 ## 🧑‍💻 Criador
 
